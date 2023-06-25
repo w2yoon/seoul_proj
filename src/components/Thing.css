@@ -1,0 +1,38 @@
+.card-image {
+  width: '100%';
+  height: '100%';
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.content-card {
+  width: 50%;
+  height: 50%;
+  margin-bottom : 2%;
+}
+
+.custom-text1 {
+  font-family: 'hanna_pro' !important;
+  font-size: 15px;
+}
+
+.custom-text2 {
+  font-family: 'hanna_air' !important;
+  font-size: 18px !important;
+}
+
+.custom-input-label {
+  font-family: 'hanna_air' !important;
+  font-size: 18px !important;
+}
+
+.custom-input {
+  font-family: 'hanna_pro' !important;
+  font-size: 18px !important;
+}
+
+.MuiInputbase-root {
+  font-family: 'hanna_air', sans-serif !important;
+  font-size: 18px !important;
+}

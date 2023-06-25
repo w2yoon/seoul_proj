@@ -1,0 +1,66 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  text-align: center;
+  font-family: 'hanna_pro';
+  background-color: white; /* change this to set background color */
+  color: white;
+  flex: 1 0 auto;  /* 수정 */
+}
+
+.text-effect {
+  font-family: 'hanna_air';
+  color: black;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(133, 133, 133, 0.5);
+  margin-bottom: -0.5%;
+}
+
+.MuiImageListItemBar-title {
+  font-family: 'hanna_air', sans-serif;
+}
+
+.MuiImageListItemBar-subtitle {
+  font-family: 'hanna_air', sans-serif;
+}
+
+.MuiButton-root {
+  font-family: 'hanna_air', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh; /* Use min-height instead of height */
+}
+
+.contentWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1; /* Add flex: 1 to make the content occupy remaining space */
+}
+
+.footer {
+  position: "fixed";
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  text-align: "center";
+  flex: "1";
+  display: "flex";
+  flex-direction: "column";
+}
+
+.contact-info {
+  text-align: center;
+}
